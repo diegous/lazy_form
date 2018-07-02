@@ -26,7 +26,7 @@ $ gem install lazy_form
 
 It's quite simple. See an example:
 
-```html
+```erb
 <%# views/_form.erb %>
 <% form_for User.new, '/users' do |f| %>
   <p>
